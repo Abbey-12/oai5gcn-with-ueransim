@@ -1,12 +1,13 @@
 # oai5gcn-with-ueransim
 
-OAI-5GCN
-Deploy 5g core in VM1
-cd oai5gcn-with-ueransim
-docker-compose -f docker-compose-oai5gcn.yaml up -d
+// OAI-5GCN
 
-RAN
-Install ueransim in VM2
+Deploy 5g core in VM1\
+cd oai5gcn-with-ueransim
+docker-compose -f docker-compose-oai5gcn.yaml up -d\
+
+//RAN
+Install ueransim in VM2\
 # install cmake
 # UERANSIM does not work with the apt version of cmake, that's why we need to install snap and the snap version of cmake:
 sudo apt update 
